@@ -1,0 +1,181 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#navbarNavAltMarkup{
+  justify-content: flex-end;
+}
+
+
+/* Navbar styling */
+.nav-link {
+  position: relative;
+  text-decoration: none; 
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background-color: rgb(207, 193, 193); 
+  bottom: -2px; 
+  left: 0;
+  transition: width 0.3s;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+/* Card styling */
+.card{
+  width: 18rem;
+}
+
+.card-img-fixed{
+  height: 200px; 
+  object-fit: cover; 
+  width: 100%;
+}
+
+.show-details , .Add-To-Cart,.back-to-home{
+    background-color:#c1c697;
+    border-color: rgb(207, 193, 193);
+    color: black; 
+    padding: 10px 20px; 
+    text-decoration: none; 
+    display: inline-block;
+    border-radius: 4px;
+    margin: 2px;
+}
+.show-details:hover ,.back-to-home:hover , .Add-To-Cart:hover{
+  color: #c1c697;
+  background-color: black; 
+  border-color: rgb(190, 180, 180);
+
+}
+
+
+.back-to-home{
+  margin-left: 30px;
+}
+
+.home-card {
+  transition: transform 0.3s ease box-shadow 0.3s ease; /* Smooth transition for zoom effect */
+  overflow: hidden; /* Prevent overflow of image */
+}
+
+.home-card:hover {
+  transform: scale(1.05); /* Scale up the card slightly on hover */
+  box-shadow: 0 4px 20px rgb(124, 124, 124);
+}
+
+.home-card .home-card-img {
+  transition: transform 0.3s ease; /* Smooth transition for image */
+}
+
+.home-card:hover .home-card-img {
+  transform: scale(1.1); /* Scale up the image slightly on hover */
+}
+
+
+/* Contact-us styling & About styling & ProductDetails styling*/
+.contactUs-style , .about-style , .home-style, .ProductDetails-style, .add-to-cart-style{
+  margin-top:120px;
+}
+
+/* CRUD operation page styling */
+.container-crud{
+  margin-left: -12px;
+
+}
+.crud-opreations{
+  margin-top: 30px;
+}
+ .add-product,.edit-product,.remove-product,.view-product{
+  /* margin-left: -45px; */
+  margin-left: -6px;
+}
+/* .edit-product-op{
+  margin-left: 44px;
+}  */
+.view-product,.remove-product,.edit-product, .add-product{
+  width: 31rem;
+  margin-bottom: 20px;
+}
+
+
+#footer-container{
+  color: black;
+}
+
+.style-listing{
+  font-weight: 400;
+}
+
+.business-review{
+  margin-top: 120px;
+}
+
+
+/* Admin styling */
+.img-admin{
+  margin-bottom: 10px;
+}
+
+
+/* styling Footer */
+.footer {
+  /* position: relative;
+  bottom: 0;
+  width: 100%;
+  background-color: #343a40; 
+  color: #ffffff */
+  background-color: #343a40; /* Dark background */
+  color: #ffffff; /* White text */
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+}
+
+.footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #f8f9fa; 
+}
+
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+/* .fixed-footer{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333; 
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  z-index: 1000; 
+
+} */

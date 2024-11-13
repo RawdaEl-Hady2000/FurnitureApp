@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "title": "Modern Sofa",
+        "price": 499.99 ,
+        "image": "https://media.istockphoto.com/id/1624395435/photo/closeup-view-of-modern-contemporary-style-living-room-with-gray-marble-stone-wall-3d-render.jpg?s=612x612&w=0&k=20&c=BTqp6tMMed5K5DU2u0PhTK2UXLaYXt2NAod2_AOzLqM=",
+        "description": "A stylish modern sofa with comfortable seating.",
+        "category": "Living Room"
+    },
+    {
+        "id": 2,
+        "title": "Wooden Dining Table",
+        "price": 799.99,
+        "image": "https://media.istockphoto.com/id/2166310617/photo/a-great-modern-dining-room-would-look-sleek-and-minimalist.jpg?s=612x612&w=0&k=20&c=uHy6Hln80AYyCKc6rWv60PJIE4kQYL3ybvhWEsG4Qlk=",
+        "description": "A sturdy wooden dining table that seats six.",
+        "category": "Dining Room"
+    },
+    {
+        "id": 3,
+        "title": "Leather Recliner Chair",
+        "price": 299.99,
+        "image": "https://media.istockphoto.com/id/2093685646/photo/digital-art-of-cozy-contemporary-living-room.jpg?s=612x612&w=0&k=20&c=GjNP_7LWzFBFx8_SBOQngDyqM8uY1czBJt6CJ4xl8YI=",
+        "description": "A comfortable leather recliner for ultimate relaxation.",
+        "category": "Living Room"
+    },
+    {
+        "id": 4,
+        "title": "Queen Bed Frame",
+        "price": 399.99,
+        "image": "https://media.istockphoto.com/id/1256466090/photo/modern-style-bedroom.jpg?s=612x612&w=0&k=20&c=0cU36zFlTfzGuWYu6SILY8aVk1V0JfLx0xKBBCsDSjo=",
+        "description": "A stylish queen bed frame that complements any bedroom.",
+        "category": "Bedroom"
+    },
+    {
+        "id": 5,
+        "title": "Bookshelf",
+        "price": 199.99,
+        "image": "https://media.istockphoto.com/id/905519900/photo/modern-office-room.jpg?s=612x612&w=0&k=20&c=6TM9Oos03F5oXeymIh8-1wIXrwgMMj3AROr6XAm3_0w=",
+        "description": "A spacious bookshelf to organize your favorite books.",
+        "category": "Office"
+    },
+    {
+        "id": 6,
+        "title": "Coffee Table",
+        "price": 149.99,
+        "image": "https://media.istockphoto.com/id/2172674663/photo/cozy-scandinavian-living-room-with-blue-hour-glow-and-central-ceiling-light.jpg?s=612x612&w=0&k=20&c=Mkt0JvqLDbWf8HT10sUqUbYGkB4VfjXrJdiLpFy3v7w=",
+        "description": "A sleek coffee table that fits perfectly in any living room.",
+        "category": "Living Room"
+    },
+    {
+        "id": 7,
+        "title": "Desk Chair",
+        "price": 129.99,
+        "image": "https://media.istockphoto.com/id/1337718884/photo/modern-office-at-home.jpg?s=612x612&w=0&k=20&c=kXlpCzVsqV360jaC9UkaXGhcGh8VLURkybD9NqBfQKE=",
+        "description": "An ergonomic desk chair for comfort during work.",
+        "category": "Office"
+    },
+    {
+        "id": 8,
+        "title": "Nightstand",
+        "price": 89.99,
+        "image": "https://media.istockphoto.com/id/1826045989/photo/modern-cozy-bedroom-interior-design-3d-rendering.jpg?s=612x612&w=0&k=20&c=hnx_F8nVKmBlx_87j2o3XOvPE7sxEpL5JZO8ArreClc=",
+        "description": "A compact nightstand with a drawer for storage.",
+        "category": "Bedroom"
+    },
+    {
+        "id": 9,
+        "title": "Outdoor Patio Set",
+        "price": 699.99,
+        "image": "https://media.istockphoto.com/id/1786171005/photo/forest-house-with-solar-panels-and-wall-battery-for-energy-storage.jpg?s=612x612&w=0&k=20&c=LrppEF08JbV4npwhJL1mu-4Kn8tPo7FtwHzWhmtGMXg=",
+        "description": "A durable patio set for outdoor dining and relaxation.",
+        "category": "Outdoor"
+    },
+    {
+        "id": 10,
+        "title": "Filing Cabinet",
+        "price": 249.99,
+        "image": "https://media.istockphoto.com/id/1254646139/photo/comfortable-workplace-with-potted-plants-wall-organizer-pictures-and-computer.jpg?s=612x612&w=0&k=20&c=UxbAgfl2qvNWFTGD4TtKMT0RIlXHYWRLeVJSt6Xh6nU=",
+        "description": "A secure filing cabinet to keep your documents organized.",
+        "category": "Office"
+    }
+]
