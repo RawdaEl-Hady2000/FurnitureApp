@@ -5,13 +5,13 @@ import contactImg from '../Images/contactUs.jpg';
 function ContactUs() {
   return (
     <>
-<div className='container contactUs-style'>
-  <h2 className='m-80'>Contact with Rokna Furniture Staff</h2>
-  <div className='row'>
-    
-      <div className='col-8'>
+      <div className='container contactUs-style'>
+        <h2 className='m-80'>Contact with Rokna Furniture Staff</h2>
+        <div className='row'>
 
-          <div className="accordion accordion-flush" id="accordionFlushExample">
+          <div className='col-8'>
+
+            <div className="accordion accordion-flush" id="accordionFlushExample">
               <div className="accordion-item">
                 <h2 className="accordion-header" id="flush-headingOne">
                   <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
@@ -90,40 +90,15 @@ function ContactUs() {
                 </div>
               </div>
 
+            </div>
           </div>
-      </div>
 
-      <div className='col-4 col-sm-none d-none d-md-none d-sm-none d-lg-block'>
-        <img src={contactImg} width='500' height='380' className='border border-3 rounded ' />
-      </div>
+          <div className='col-4 col-sm-none d-none d-md-none d-sm-none d-lg-block'>
+            <img src={contactImg} width='500' height='380' className='border border-3 rounded ' />
+          </div>
 
-  </div>
-</div>
-
-
-      {/* <div className='container contactUs-style'>
-     <h1 className='m-60'>Contact with Rokna Furniture Staff</h1>
-        <div className='row'>
-            <div className='col-8'>
-              <h4> Customer Service </h4>
-                <p> For all questions related to our furniture & organization offers to our customers before or after  they buy or use products , <a href= "mailto: customerservice@roknafurniture.com">Contact us </a>  </p>
-              <h4>Supplier Inquiries </h4>
-                <p> Information for suppliers who want to collaborate with Rokna Furniture, including guidelines for submitting product catalogs, proposals, or partnership requests , <a href='mailto: suppliers@roknafurniture.com'>Contact us</a> </p>
-              <h4>Technology Support </h4>
-              <p> To report accessibility-related issues or share suggestions , <a href='mailto: techsupport@roknafurniture.com'> Contact us</a></p>
-              <h4>For complaints</h4>
-              <p>At Rokna Furniture, we value your feedback and are committed to resolving any issues you may encounter. If you have a complaint regarding our products or services, please reach out to our customer service team. We are here to assist you and ensure that your concerns are addressed promptly and effectively. You can submit your complaint through the contact form on our website, via email, or by calling our customer support line. We aim to resolve all complaints as quickly as possible to maintain your satisfaction and trust in our brand , <a href='mailto:complaints@roknafurniture.com'>Contact us</a></p>
-              <h4> Corporate Address </h4>
-              <p>123 Furniture Lane <br></br>
-                Design City, State 45678<br></br>
-                Country: Exampleland</p>
-            </div>
-
-            <div className='col-4 col-sm-none d-none d-md-none d-sm-none d-lg-block'>
-              <img  src={contactImg} width='500' height='380' className='border border-3 rounded '/>
-            </div>
         </div>
-     </div> */}
+      </div>
 
     </>
 

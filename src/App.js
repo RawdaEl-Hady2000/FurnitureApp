@@ -4,22 +4,20 @@ import About from './Components/About';
 import ContactUs from './Components/ContactUs';
 import Home from './Components/Home';
 import Reviews from './Components/Reviews';
-// import Footer from './Components/Footer';
 import Cart from './Components/Cart';
 import ProductsList from './Components/ProductsList';
 import Product_Details  from './Components/Product_Details';
 import Admin from './Components/Admin';
 import CRUD from './Components/CRUD';
-// import AdminLogin from './Components/AdminLogin';
 import AdminsOperations from './Components/AdminsOperations';
-
-
+// import Footer from './Components/Footer';
 
 
 function App() {
   return (
   <>
- <div className="main-content">
+ <div className="main-content" id='app'>
+  <main>
   <Navbar></Navbar>
   <Routes>
     <Route path='' element={<Home></Home>}> </Route>
@@ -32,10 +30,10 @@ function App() {
     <Route path='/reviews' element={<Reviews></Reviews>}> </Route>
     <Route path='/admin' element={<Admin></Admin>}> </Route>
     <Route path='/crud' element={<CRUD></CRUD>}> </Route>
-    {/* <Route path='/Admin_Login' element={<AdminLogin></AdminLogin>}> </Route> */}
     <Route path='/Admins_Operations' element={<AdminsOperations></AdminsOperations>}> </Route>
   </Routes>
   {/* <Footer></Footer> */}
+  </main>
 
   </div>
   </>

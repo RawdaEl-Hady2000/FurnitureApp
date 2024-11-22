@@ -1,4 +1,3 @@
-// import Footer from "./Footer";
 
 function About() {
     return (
@@ -32,7 +31,7 @@ function About() {
                     At "Rokna Furniture", our team is the heart and soul of our business, dedicated to delivering an exceptional shopping experience to every customer. Comprised of passionate design enthusiasts, skilled craftsmen, and knowledgeable customer service experts, we work collaboratively to ensure that our furniture not only meets high standards of quality and style but also resonates with our customers' unique tastes. Each member brings their expertise and creativity to the table, fostering an environment of innovation and collaboration. We believe in building lasting relationships with our clients, guiding them through every step of their furniture journey. Together, we strive to create a welcoming atmosphere where your vision for your home comes to life.
                 </p>
             </div>
-   
+
         </>
     )
 }

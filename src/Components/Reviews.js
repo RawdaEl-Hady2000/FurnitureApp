@@ -15,9 +15,9 @@ import Swal from 'sweetalert2';
 
 function Reviews() {
 
-const [email, setEmail] = useState("");
-const [password, setPassword] = useState("");
-const [reviews, setReviews] = useState("");
+    const [email, setEmail] = useState("");
+    const [password, setPassword] = useState("");
+    const [reviews, setReviews] = useState("");
 
     const onChangeEmail = (e) => {
         setEmail(e.target.value);
@@ -127,21 +127,21 @@ const [reviews, setReviews] = useState("");
                                     placeholder="Enter you email"
                                     value={email}
                                     onChange={onChangeEmail} />
-<br></br>
+                                <br></br>
                                 <Input
                                     required
                                     className="form-control" type="password"
                                     placeholder="Enter you password"
                                     value={password}
                                     onChange={onChangePassword} />
-<br></br>
+                                <br></br>
                                 <Input
                                     required
                                     className="form-control" type="text"
                                     placeholder="Enter you review"
                                     value={reviews}
                                     onChange={onChangeReview} />
-<br></br>
+                                <br></br>
                                 <div className='container'>
                                     <div className='row'>
                                         <div className='col p-6 form-group d-flex justify-content-end m-auto'>

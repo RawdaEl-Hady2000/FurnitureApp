@@ -23,7 +23,7 @@ function Admin() {
                 title: 'Incomplete Form',
                 text: 'Please fill the inputs.',
             });
-            return; // Stop further execution if fields are empty
+            return; 
         }
 
 
@@ -57,10 +57,7 @@ function Admin() {
                     <div className="col-8">
                         <div className="form-container rounded-start border shadow-lg border-1 p-3 mb-5 bg-body rounded review-form">
                             <div className='d-flex justify-content-center'>
-                                {/* <img src='https://www.creativefabrica.com/wp-content/uploads/2021/04/04/Verified-account-icon-Graphics-10369166-1-1-580x386.jpg' className='rounded-circle ' width="300" height="200"></img> */}
-                                {/* <img src='https://www.shareicon.net/data/2016/07/11/589479_admin_256x256.png' className='rounded-circle ' width="150" height="150"></img> */}
                                 <img src='https://www.creativefabrica.com/wp-content/uploads/2021/08/04/User-Login-Icon-Graphics-15483973-1-1-580x374.jpg' className='rounded-circle img-admin' width="300" height="200"></img>
-                                {/* <img src='https://www.creativefabrica.com/wp-content/uploads/2021/03/30/Business-person-icon-Graphics-10117439-1-1-580x386.jpg' className='rounded-circle ' width="230" height="150"></img> */}
                             </div>
                             <Form className="mt-10" onSubmit={handleSubmit}>
                                 <Input
